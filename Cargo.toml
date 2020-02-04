@@ -1,0 +1,10 @@
+[package]
+name = "rust_wasm_gui_test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+glow = { version = "0.4.0", default-features=false, features = ["stdweb"] }
+std_web  = { version = "0.4.18", package = "stdweb" }
+webgl_stdweb = "0.3"
+winit = { version = "0.20.0", features=["stdweb"] }
